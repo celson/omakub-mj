@@ -14,12 +14,14 @@ alias ....='cd ../../..'
 
 # Tools
 alias n='nvim'
+alias vi='nvim'
 alias g='git'
 alias d='docker'
 alias r='rails'
 alias bat='batcat'
 alias lzg='lazygit'
 alias lzd='lazydocker'
+alias k='kubectl'
 
 # Git
 alias gcm='git commit -m'
@@ -36,3 +38,7 @@ webm2mp4() {
   output_file="${input_file%.webm}.mp4"
   ffmpeg -i "$input_file" -c:v libx264 -preset slow -crf 22 -c:a aac -b:a 192k "$output_file"
 }
+
+# Workspace
+alias ws='cd ~/Workspace'
+alias wsg='cd ~/Workspace/Git'
