@@ -9,7 +9,17 @@ $directory\
 $git_branch\
 $git_status\
 $git_metrics\
-[](fg:#FCF392 bg:#030B16)\
+[ ](fg:#FCF392 bg:#1e1e2e)\
+$kubernetes\
+$nix_shell\
+$docker_context\
+$golang\
+$python\
+$rust\
+$terraform\
+$vagrant\
+$aws\
+$azure\
 $character\
 """
 
@@ -41,8 +51,8 @@ format = "[  $duration ]($style)"
 style = "fg:bright-white bg:18"
 
 [character]
-success_symbol = '[ ➜](bold green) '
-error_symbol = '[ ✗](#E84D44) '
+success_symbol = '[➜](bold green) '
+error_symbol = '[✗](#E84D44) '
 
 [time]
 disabled = false
