@@ -1,4 +1,4 @@
-iformat = """\
+format = """\
 [](bg:#030B16 fg:#7DF9AA)\
 [ ](bg:#7DF9AA fg:#090c0c)\
 [](fg:#7DF9AA bg:#1C3A5E)\
