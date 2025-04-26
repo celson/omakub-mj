@@ -18,6 +18,7 @@ apps=(
 	"org.gnome.Settings.desktop"
 	"org.gnome.Nautilus.desktop"
 	"localsend_app.desktop"
+	"ghostty.desktop"
 )
 
 # Array to hold installed favorite apps
