@@ -1,14 +1,15 @@
 {
   "workbench.colorTheme": "Catppuccin Mocha",
-  "security.workspace.trust.untrustedFiles": "open",
   "git.autofetch": true,
   "symbols.hidesExplorerArrows": false,
   "workbench.iconTheme": "symbols",
   "editor.fontFamily": "JetBrainsMono Nerd Font",
-  "editor.tabSize": 2,
   "editor.fontSize": 14,
   "editor.lineHeight": 1.8,
-  "editor.rulers": [80, 120],
+  "editor.rulers": [
+    80,
+    120
+  ],
   "workbench.startupEditor": "newUntitledFile",
   "editor.renderLineHighlight": "gutter",
   "editor.fontLigatures": true,
@@ -19,8 +20,16 @@
   "editor.minimap.enabled": false,
   "editor.scrollbar.vertical": "hidden",
   "editor.scrollbar.horizontal": "hidden",
-  "editor.tabCompletion": "on",
-  "workbench.statusBar.visible": false,
   "terminal.integrated.fontSize": 14,
-  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font"
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "codestream.serverUrl": "https://codestream-us1.service.newrelic.com",
+  "redhat.telemetry.enabled": false,
+  "cloudcode.duetAI.project": "warm-utility-204813",
+  "github.copilot.editor.enableAutoCompletions": true,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "makefile.configureOnOpen": true,
+  "terminal.external.linuxExec": "ghostty",
+  "githubPullRequests.pullBranch": "never"
 }
